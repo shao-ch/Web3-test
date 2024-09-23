@@ -1,0 +1,181 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "corwdFundingAddrss",
+						"type": "address"
+					}
+				],
+				"name": "CorwdFunding_Fail",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_beneficiary",
+						"type": "address"
+					}
+				],
+				"name": "Funder_Close",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getBeneficiary",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_beneficiaryAdderess",
+						"type": "address"
+					}
+				],
+				"name": "getBeneficiaryFunders",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_beneficiaryAdderess",
+						"type": "address"
+					}
+				],
+				"name": "getBeneficiaryStatus",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_beneficiaryAdderess",
+						"type": "address"
+					}
+				],
+				"name": "getBeneficiaryTotalAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_beneficiaryAdderess",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "funderAddress",
+						"type": "address"
+					}
+				],
+				"name": "getFunderAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_beneficiary",
+						"type": "address"
+					}
+				],
+				"name": "startCorwdFunding",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test_work/CrowdFunding.sol": "CrowdFunding"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test_work/CrowdFunding.sol": {
+			"keccak256": "0x65f2225099f682e7d5edf42ef865ce201cfd5958f72ec6af551a0283a55d68d9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://52a71e366380dc70ec01a97cf6a3e3a661a3ce959d5b40349250fa19f9bc35bd",
+				"dweb:/ipfs/QmYjpSxWW9wiQ3RpLbKVoJbx4r4ze4UA6d6sjT7kbTyVuE"
+			]
+		}
+	},
+	"version": 1
+}

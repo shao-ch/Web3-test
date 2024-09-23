@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GoldToken.sol": "G"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GoldToken.sol": {
+			"keccak256": "0xc5c0f6474262771ffa580baa79945f9a27698cd2eecd15789b117db0b6ccc057",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e1ea906659be3ee2d80616325b0edb3763b88396ace13d48f945b9c9d8cea0c7",
+				"dweb:/ipfs/QmPsvdYQvWaCvnLTdLVKkbAExxjcwDLJzCbxjPwRdMw3PC"
+			]
+		}
+	},
+	"version": 1
+}

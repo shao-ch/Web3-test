@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test_work/MultiWallet.sol": "Multi"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test_work/MultiWallet.sol": {
+			"keccak256": "0x4e270fd6b822f6a7654366ee1f1276e356d97cfaac3df140819b34c3fb686505",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://852a0551e11b548aa3654310185592789553cf21fe770d26af18f2ddfac9f6e8",
+				"dweb:/ipfs/QmbHWJDwMwiGoSprwyqytj24T8DGCjWUU7kReLLDkMU3zV"
+			]
+		}
+	},
+	"version": 1
+}

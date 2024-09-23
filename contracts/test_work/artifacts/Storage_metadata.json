@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test_work/StorageMoney.sol": "Storage"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test_work/StorageMoney.sol": {
+			"keccak256": "0x8708019395a6cc34716cd3112f210d8894ed7d960b59cdfe09b1f59b3c16a79b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15c0fb42c21d7f23af35fd28e65608b2fd0247f3c60b2a0c3b6c803f82c4db6f",
+				"dweb:/ipfs/QmRvwkwokrBKTxGjJxyDSwADTzQxpEPkkNNWhDW6EPs2Q5"
+			]
+		}
+	},
+	"version": 1
+}

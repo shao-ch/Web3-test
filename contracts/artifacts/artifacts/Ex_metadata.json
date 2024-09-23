@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/artifacts/ExtraStorage.sol": "Ex"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/artifacts/ExtraStorage.sol": {
+			"keccak256": "0x60ed5e40441ec20b80a8d8f2b8d94a8acc24bfee97169ff6e2c49e41e4a34a67",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c9cf53e9bdd5927a75fc8e2eb6c7cc7c2677a39ced318f6ef38b1722f052d94",
+				"dweb:/ipfs/QmetWTtr4HSEvGqdQzQBX35LygqXJYhfFnEC1LjoWLV1Z5"
+			]
+		}
+	},
+	"version": 1
+}

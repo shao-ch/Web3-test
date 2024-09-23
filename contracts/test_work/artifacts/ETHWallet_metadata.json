@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawV2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawV3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test_work/ETHWallet.sol": "ETHWallet"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test_work/ETHWallet.sol": {
+			"keccak256": "0xb96bf8aafa3b437719c52372f03780ca5cc3f85db27d81375ef3f15955f5ffd7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d52c8499d4092353e6b0a67d19a43411d820312c77bd934da24ceebbdb442ac4",
+				"dweb:/ipfs/Qmauy2KZKPuRZ7EPCDpwMnEqxRcmgPJgbPe2fgYkRhvBBE"
+			]
+		}
+	},
+	"version": 1
+}

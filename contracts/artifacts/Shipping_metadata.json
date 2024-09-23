@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"name": "LogNewAlert",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "Delivered",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Shipped",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Status",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Shipping.sol": "Shipping"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Shipping.sol": {
+			"keccak256": "0x8c258d964c2a630b5dbd1093c77a963ea768fccacb9683796c890edef687efd3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d3238a37fdc49a6b13f29f276abef053c70f850c496c939d2b388774c338655d",
+				"dweb:/ipfs/QmVa8ZDUxJxz8QFy8febh17xDhqvZzr7nbMWgaRC6Weyno"
+			]
+		}
+	},
+	"version": 1
+}

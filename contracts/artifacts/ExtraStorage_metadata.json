@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExtraStorage.sol": "ExtraStorage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExtraStorage.sol": {
+			"keccak256": "0xc5ed7a14327ffccaec11d5fe1bcc9d08ff42b4dde7c59be21b3a5f64fd4aede5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://86e7a14532ba054d35993c750011aa2fb7c351e59a774ed0ef2e62ab53b9aa98",
+				"dweb:/ipfs/QmXiohCoMBpUWvht85Wp9cPxZDe12iH4C5bGbLKvAjaGm2"
+			]
+		},
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x11c93b7295abf3c3f05e2e879f49edea8fddf4473229d866a5b6c32e21f67d56",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://896b04074868bcfdb6a0728d44781e4193cfdce271b4e0c1c6d3981011dfc192",
+				"dweb:/ipfs/QmXYvQhxLc96DcGKSi1fHF5qek7MeEcxqgoav4WLeJiRdF"
+			]
+		}
+	},
+	"version": 1
+}

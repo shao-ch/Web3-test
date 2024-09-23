@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FundPay.sol": "Funda"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FundPay.sol": {
+			"keccak256": "0x6f5ad943cbd200c6cdbb5565a0ca8f4d7f3087dcef9c49a7b4b169a721a96d46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fedb9d0eec91589e252ef1b2de061ed9b29336a0e2c610a4072c79d00d89a12e",
+				"dweb:/ipfs/QmTiFtu7xtwyNDxZe5Nx2hr3u5mMpkR8AesMjaeW51UU32"
+			]
+		}
+	},
+	"version": 1
+}

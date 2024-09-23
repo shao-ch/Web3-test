@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test_work/ETHWallet.sol": "ET"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test_work/ETHWallet.sol": {
+			"keccak256": "0x608a4b82faca0beedc71bc911c431eff9a172cc6019dac7d0a9344cbeda0b29d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa2d489efe311076b67616ffd4cf38ef772d0dbcb9c734932f198040e3878fed",
+				"dweb:/ipfs/QmbGjJKHwuiZiw6V41y8beQ6J8wzxb1WHuGrqcRbDgcGY2"
+			]
+		}
+	},
+	"version": 1
+}

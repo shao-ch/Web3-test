@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FallbackAndRecive.sol": "Name"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FallbackAndRecive.sol": {
+			"keccak256": "0x03f92750f9bb19ff9a60f686265851ace4e71a1b4c84096e9efc83172d536603",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bb7e349516e1bedbbf80be229b382053ff1a93132a8db694af13094bfdb50f22",
+				"dweb:/ipfs/QmaNMKTwgm78hbYtVhRE9iQa3iXUMd9XTUBZhuhFJGcJvs"
+			]
+		}
+	},
+	"version": 1
+}
