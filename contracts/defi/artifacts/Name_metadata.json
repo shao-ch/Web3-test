@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/defi/StrongStake.sol": "Name"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/defi/StrongStake.sol": {
+			"keccak256": "0xd5babf849773216be094897f19028042d63d7c54e8cb6986d87abeabb0cb997b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f298980e0bc4087877791e3c893802d92750c47f7c42bd259c69bfa2a1e9c6d8",
+				"dweb:/ipfs/QmdgrTivhXagHBGEsRAktm2a7Z4jZg95uCE4v2HstereF1"
+			]
+		}
+	},
+	"version": 1
+}

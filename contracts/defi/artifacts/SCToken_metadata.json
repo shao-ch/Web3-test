@@ -6,13 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_initCapacity",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -428,7 +422,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/GoldToken.sol": "GoldToken"
+			"contracts/defi/SCToken.sol": "SCToken"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -482,12 +476,12 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"contracts/GoldToken.sol": {
-			"keccak256": "0x8f7229e28b23246305279dbe2f2edb801082517b34ff96c7a57b6ccbdf1fe494",
+		"contracts/defi/SCToken.sol": {
+			"keccak256": "0xa87ac9b65633cdddb89fdcd9a47438f53fa9ec5009613c476ea23bf3424fb097",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e0547f69495ef43b7ab7e7e721d98351e0f01ce13516488343dc3266c84cb857",
-				"dweb:/ipfs/QmWsZKb7VTGPaAvGpqy4Y2CEP6LQEcZAw3CaDWj3ZycUJX"
+				"bzz-raw://dc554504abb09bdb38878a6655d33a86365133e675f1879c2e01aadc3997dfc8",
+				"dweb:/ipfs/QmRco6pTSRvAhNi3JzBwFxjZiuF2imszjDCik3fHw5SPBp"
 			]
 		}
 	},

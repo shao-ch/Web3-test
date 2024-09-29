@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/defi/SCToken.sol": "SCToe"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/defi/SCToken.sol": {
+			"keccak256": "0xb48b9265f02775c7819278a081b4430ce5586650ec6d4370a445fe9cf8a3d002",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://020177f172d742529766859004533e3db7b561fdad91d89f1cd017a1831dd93b",
+				"dweb:/ipfs/QmSV1ruxxALBXjzN1m7B2yoKpHXv3qmpBR2o9vgcXkceXG"
+			]
+		}
+	},
+	"version": 1
+}
