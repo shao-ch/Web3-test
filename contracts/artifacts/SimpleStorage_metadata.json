@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.24+commit.e11b9ed9"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -19,6 +19,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "favoriteNumber",
 				"outputs": [
@@ -26,6 +45,19 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArr",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "view",
@@ -56,6 +88,20 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testArr",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testArrV2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -73,7 +119,7 @@
 		"compilationTarget": {
 			"contracts/SimpleStorage.sol": "SimpleStorage"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -86,11 +132,11 @@
 	},
 	"sources": {
 		"contracts/SimpleStorage.sol": {
-			"keccak256": "0x2b850e3f35c4d7101ddeb06769bc972e0ce0f9fd4f91d126cde73e32fd872e13",
+			"keccak256": "0x68a52309938cd7a9f306a6b9c1d507ef7cf816aec3ba42382e0765d8b70dd8b7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c4bb264069e618cda6e2c53723914b18d74686f7250ff4ea6c0229a63d9ff74b",
-				"dweb:/ipfs/Qmc56unqyUTaDioKhxsStLFxzCasMVhAUJQx919jcBs1Fd"
+				"bzz-raw://0ef1f467a340bd7d44901d259343118b8b7f8ec462b05b54b33dadc11fd2c430",
+				"dweb:/ipfs/QmeTUDEdgAZw4C4Uq8yqujyZj1vGEDQy515JVRrZfpXgeU"
 			]
 		}
 	},
